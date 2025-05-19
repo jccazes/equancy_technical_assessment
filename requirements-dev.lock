@@ -57,6 +57,9 @@ numpy==2.2.6
     # via scikit-learn
     # via scipy
     # via seaborn
+    # via xgboost
+nvidia-nccl-cu12==2.26.5
+    # via xgboost
 packaging==25.0
     # via ipykernel
     # via matplotlib
@@ -97,6 +100,7 @@ scikit-learn==1.6.1
     # via equancy-technical-assessment
 scipy==1.15.3
     # via scikit-learn
+    # via xgboost
 seaborn==0.13.2
     # via equancy-technical-assessment
 six==1.17.0
@@ -119,3 +123,5 @@ tzdata==2025.2
     # via pandas
 wcwidth==0.2.13
     # via prompt-toolkit
+xgboost==3.0.1
+    # via equancy-technical-assessment
