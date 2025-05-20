@@ -44,6 +44,8 @@ jupyter-core==5.7.2
     # via jupyter-client
 kiwisolver==1.4.8
     # via matplotlib
+kneed==0.8.5
+    # via equancy-technical-assessment
 matplotlib==3.10.3
     # via seaborn
 matplotlib-inline==0.1.7
@@ -53,6 +55,7 @@ nest-asyncio==1.6.0
     # via ipykernel
 numpy==2.2.6
     # via contourpy
+    # via kneed
     # via matplotlib
     # via pandas
     # via scikit-learn
@@ -109,6 +112,7 @@ scikit-learn==1.6.1
 scikit-optimize==0.10.2
     # via equancy-technical-assessment
 scipy==1.15.3
+    # via kneed
     # via scikit-learn
     # via scikit-optimize
     # via xgboost
