@@ -13,6 +13,8 @@ dependencies = [
     "xgboost>=3.0.1",
     "scikit-optimize>=0.10.2",
     "kneed>=0.8.5",
+    "nbqa>=1.9.1",
+    "black>=25.1.0",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
